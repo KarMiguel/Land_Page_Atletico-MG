@@ -107,6 +107,9 @@
         z-index: 1;
         outline: none;
     }
+    #btn-news-prev{
+        left: 10px;
+    }
     #btn-news-next{
         right: 15px;
     }
