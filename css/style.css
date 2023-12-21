@@ -77,10 +77,10 @@ header .header-black li a {
 	display: block;
 }
 header #logotipo {
-	position: absolute;
+    position: absolute;
     width: 200px;
     height: 200px;
-	top: -180px;
+    top: -180px;
 }
 .list-times{ 
     display: flex;
