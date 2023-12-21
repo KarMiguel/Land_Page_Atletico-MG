@@ -44,7 +44,9 @@ $(document).ready(function() {
 });
 
 $(".thumbnails").owlCarousel({
-    items:4
+    items:4,
+    autoPlay: 5000,
+    singleItem: true
 });
 
 let owl = $(".thumbnails").data('owlCarousel');
