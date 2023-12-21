@@ -45,8 +45,7 @@ $(document).ready(function() {
 
 $(".thumbnails").owlCarousel({
     items:4,
-    autoPlay: 5000,
-    singleItem: true
+    autoPlay: 5000
 });
 
 let owl = $(".thumbnails").data('owlCarousel');
