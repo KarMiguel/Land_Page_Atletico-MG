@@ -4,7 +4,6 @@ $(document).ready(function() {
         margin: 10,
         nav: true,
         dots: true,
-        autoplay: true,
         autoplayTimeout: 3000,
         animateOut: 'slideOutLeft',
         animateIn: 'slideInRight',
@@ -44,7 +43,9 @@ $(document).ready(function() {
 });
 
 $(".thumbnails").owlCarousel({
-    items:4
+    items:4,
+    autoPlay: 5000,
+    singleItem: false
 });
 
 let owl = $(".thumbnails").data('owlCarousel');
